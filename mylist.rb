@@ -7,8 +7,8 @@ class MyList
 
   attr_reader :list
 
-  def each
-    yield(@list)
+  def each(&block)
+    @list.each(&block)
   end
 end
 
@@ -29,4 +29,4 @@ pp list.any? { |e| e == 5 }
 
 # Test #filter
 # => [2, 4]
-list.filter { |e| e.even? }
+pp list.filter { |e| e.even? }
