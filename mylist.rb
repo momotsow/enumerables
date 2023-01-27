@@ -17,16 +17,16 @@ pp list
 
 # Test #all?
 # true
-pp list.all? { |e| e < 5 }
+pp(list.all?) { |e| e < 5 }
 # false
-pp list.all? { |e| e > 5 }
+pp(list.all?) { |e| e > 5 }
 
 # Test #any?
 # true
-pp list.any? { |e| e == 2 }
+pp(list.any?) { |e| e == 2 }
 # false
-pp list.any? { |e| e == 5 }
+pp(list.any?) { |e| e == 5 }
 
 # Test #filter
 # => [2, 4]
-pp list.filter { |e| e.even? }
+pp list.filter(&:even?)
