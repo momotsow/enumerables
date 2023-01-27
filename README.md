@@ -71,7 +71,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+>This is an Enumerable Ruby project that accepts an numerable object and has methods for all?, any? and filter for lists.
 
 <details>
   <summary>Client</summary>
@@ -140,39 +140,25 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
+sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+  git clone [git@github.com:myaccount/my-project.git](https://github.com/momotsow/enumerables.git)
+
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
+sh
+  cd enumerables
   gem install
-```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
+  sh
   rails server
-```
---->
 
 ### Run tests
 
